@@ -4,7 +4,7 @@ import { assets } from '../../assets/assets.js';
 import { useState } from 'react';
 
 const Navbar = () => {
-  const [menu, setMenu] = useState("home");
+  const [menu, setMenu] = useState("menu");
   return (
     <div className='navbar'>
       <img src={assets.logo} alt="logo" className="logo" />
