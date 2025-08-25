@@ -1,9 +1,9 @@
-.header{
-    position:relative;
+.header {
+    position: relative;
     height: 34vw;
-    background: url('header_img.png');
+    background: url('header_img.png') no-repeat center;
     margin: 30px auto;
-    background-size: contain;
+    background-size: cover; /* or 100% 100% if you don’t want aspect ratio */
 }
 .header-contents{
     position: absolute;
