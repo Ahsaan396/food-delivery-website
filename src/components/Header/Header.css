@@ -3,7 +3,7 @@
     height: 34vw;
     background: url('header_img.png') no-repeat center;
     margin: 30px auto;
-    background-size: cover; /* or 100% 100% if you don’t want aspect ratio */
+    background-size: cover; 
 }
 .header-contents{
     position: absolute;
