@@ -4,7 +4,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className='footer'>
+        <div className='footer' id='footer'>
             <div className="footer-content">
                 <div className="footer-content-left">
                     <img src={assets.logo} alt="" />
@@ -29,14 +29,14 @@ const Footer = () => {
                 <div className="footer-content-right">
                     <h2>GET IN TOUCH</h2>
                     <ul>
-                        <li>+1-212-456-7890</li>
+                        <li>+8801719374786</li>
                         <li>contact@tomato.com</li>
                     </ul>
                 </div>
             </div>
 
             <hr />
-            <p className='footer-copyright'>© 2022 Tomato Food Delivery. All rights reserved.</p>
+            <p className='footer-copyright'>© 2025 Tomato Food Delivery. All rights reserved.</p>
         </div>
 
     )
